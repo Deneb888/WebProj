@@ -1,0 +1,78 @@
+/* * * * * * * * * * */
+/* * * Mega Menu * * */
+/* * * * * * * * * * */
+
+/* Set the navbar container position to relative */
+.navbar .container {
+    position: relative;
+}
+
+/* ============ desktop view ============ */
+@media all and (min-width: 992px) {
+
+    .navbar .has-megamenu {
+        position: static !important;
+    }
+
+    .navbar .megamenu {
+        left: 0;
+        right: 0;
+        width: 100%;
+        padding: 1rem;
+        margin-top: 0;
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+
+}
+
+/* ============ desktop view .end// ============ */
+
+/* ============ mobile view ============ */
+@media(max-width: 991px) {
+
+    .navbar.fixed-top .navbar-collapse,
+    .navbar.sticky-top .navbar-collapse {
+        overflow-y: auto;
+        max-height: 80vh;
+        margin-top: 10px;
+    }
+}
+
+/* ============ mobile view .end// ============ */
+
+/* * * * * * * * * */
+/* * * Submenu * * */
+/* * * * * * * * * */
+
+.dropdown-submenu {
+    position: relative;
+}
+
+.dropdown-submenu a::after {
+    transform: rotate(-90deg);
+    position: absolute;
+    right: 6px;
+    top: .8em;
+}
+
+.dropdown-submenu .dropdown-menu {
+    top: 0;
+    left: 100%;
+    margin-left: .1rem;
+    margin-right: .1rem;
+}
+
+.dropdown-submenu .dropdown-menu {
+    border: 0;
+}
+
+/* ============ mobile view ============ */
+@media(max-width: 991px) {
+
+    .dropdown-submenu .dropdown-menu {
+        border: 0;
+    }
+}
+
+/* ============ mobile view .end// ============ */
