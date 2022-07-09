@@ -1,0 +1,5 @@
+I have completed the two menu variations as demos. I created a new page called index-menu-demo.html, a new CSS file called menus.css, and a new JS file called submenu.js.
+
+The mega menu requires the CSS file, and the submenu requires both the CSS and JS files.
+
+Let me know if this works for you. I will draft up an invoice for this and send that over when you approve it. Have a great weekend!
